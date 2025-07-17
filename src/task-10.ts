@@ -20,3 +20,5 @@
 
 // toUserObjects(users);
 // Повертає: [{ id: 1, name: "alice" }, { id: 2, name: "bob" }, { id: 3, name: "charlie" }]
+
+// !!!!!!!!!!!!!!!Рішення:

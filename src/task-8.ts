@@ -16,3 +16,13 @@
 // 3. Типізуйте параметр і тип повернення функції getPermissions.
 
 // 4. Перевірте, що TypeScript не дозволяє передати в getPermissions значення, якого немає в Role.
+
+// !!!!!!!!!!!!!!!Рішення:
+// enum Role {
+//   Admin,
+//   User,
+//   Guest,
+// }
+
+// function getPermissions(role: Role) {
+// }

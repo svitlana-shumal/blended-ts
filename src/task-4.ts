@@ -8,3 +8,10 @@
 
 // Додайте до змінної dimensions явну типізацію.
 // Переконайтеся, що TypeScript не дозволяє додавати до масиву значення інших типів (наприклад, рядки).
+
+// !!!!!!!!!!!!!!!Рішення:
+
+// const dimensions: number[] = [1920, 1080];
+
+// const dimensions: [number, number] = [1920, 1080];
+// console.log(dimensions);
