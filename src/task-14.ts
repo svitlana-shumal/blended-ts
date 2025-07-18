@@ -16,10 +16,11 @@
 // Переконайтеся, що якщо message має тип відмінний від рядка, то виникає помилка.
 
 // !!!!!!!!!!!!!!!Рішення:
-// function fetchMessage() {
+// function fetchMessage(): Promise<string> {
 //   return new Promise((resolve) => {
 //     resolve("Hello from server!");
 //   });
 // }
 
-// fetchMessage().then(message => console.log(message));
+// fetchMessage().then((message) =>
+//     console.log(message));

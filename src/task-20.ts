@@ -16,3 +16,26 @@
 // Оголосіть функцію logThreePosts, яка виведе в консоль дані перших 3 постів, виводячи їхні title та body.
 
 // !!!!!!!!!!!!!!!Рішення:
+// interface Post {
+//   id: number;
+//   title: string;
+//   body: string;
+// }
+// import axios from "axios";
+
+// const fetchPosts = async (): Promise<Post[]> => {
+//   const response = await axios.get<Post[]>(
+//     "https://jsonplaceholder.typicode.com/posts"
+//   );
+//   return response.data;
+// };
+
+// const logThreePosts = async () => {
+//   const posts = await fetchPosts();
+//   const firstThree = posts.slice(0, 3);
+//   firstThree.forEach((post) => {
+//     console.log(`${post.title} (${post.body})`);
+//   });
+// };
+
+// logThreePosts();
