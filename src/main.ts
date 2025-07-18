@@ -5,7 +5,7 @@
 // import "./task-5.ts";
 // import "./task-6.ts";
 // import "./task-7.ts";
-import "./task-8.ts";
+// import "./task-8.ts";
 // import "./task-9.ts";
 // import "./task-10.ts";
 // import "./task-11.ts";

@@ -22,3 +22,19 @@
 // Повертає: [{ id: 1, name: "alice" }, { id: 2, name: "bob" }, { id: 3, name: "charlie" }]
 
 // !!!!!!!!!!!!!!!Рішення:
+
+// type UserObject = {
+//   id: number;
+//   name: string;
+// };
+
+// function toUserObjects(users: string[]): UserObject[] {
+//   return users.map((name, index) => ({
+//     id: index + 1,
+//     name: name,
+//   }));
+// }
+// const users = ["alice", "bob", "charlie"];
+// const UserObject = toUserObjects(users);
+
+// console.log(UserObject);
