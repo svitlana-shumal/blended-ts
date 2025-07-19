@@ -11,8 +11,8 @@
 // Типізуйте параметр callback, щоб це була функція, яка приймає рядок і повертав void.
 
 // !!!!!!!!!!!!!!!Рішення:
-
-// function sendDoneStatus(callback: (status: string) => void): void {
+// type Callback = (status:string) => void
+// function sendDoneStatus(callback:Callback): void {
 //   callback("done");
 // }
 
